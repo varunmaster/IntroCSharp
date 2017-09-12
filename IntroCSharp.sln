@@ -105,6 +105,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "binding", "binding\binding.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "generics", "generics\generics.csproj", "{F20F8693-C76F-44E6-9380-AD5064A50395}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToString_Method", "ToString_Method\ToString_Method.csproj", "{33E3C1A0-122B-4A36-9685-2F8E77711B4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Equals_Method", "Equals_Method\Equals_Method.csproj", "{E891BDB1-3CBF-44C3-8C75-715005D94824}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -315,6 +319,14 @@ Global
 		{F20F8693-C76F-44E6-9380-AD5064A50395}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F20F8693-C76F-44E6-9380-AD5064A50395}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F20F8693-C76F-44E6-9380-AD5064A50395}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33E3C1A0-122B-4A36-9685-2F8E77711B4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33E3C1A0-122B-4A36-9685-2F8E77711B4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33E3C1A0-122B-4A36-9685-2F8E77711B4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33E3C1A0-122B-4A36-9685-2F8E77711B4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E891BDB1-3CBF-44C3-8C75-715005D94824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E891BDB1-3CBF-44C3-8C75-715005D94824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E891BDB1-3CBF-44C3-8C75-715005D94824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E891BDB1-3CBF-44C3-8C75-715005D94824}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
