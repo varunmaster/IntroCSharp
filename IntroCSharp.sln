@@ -109,6 +109,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToString_Method", "ToString
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Equals_Method", "Equals_Method\Equals_Method.csproj", "{E891BDB1-3CBF-44C3-8C75-715005D94824}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stringAndStringBuilder", "stringAndStringBuilder\stringAndStringBuilder.csproj", "{C2F124B1-34B3-4E03-B037-12EDDD254466}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "partialClasses", "partialClasses\partialClasses.csproj", "{D6A0B06C-D611-49D1-A0B7-9AC9EE33C066}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -327,6 +331,14 @@ Global
 		{E891BDB1-3CBF-44C3-8C75-715005D94824}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E891BDB1-3CBF-44C3-8C75-715005D94824}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E891BDB1-3CBF-44C3-8C75-715005D94824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2F124B1-34B3-4E03-B037-12EDDD254466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2F124B1-34B3-4E03-B037-12EDDD254466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2F124B1-34B3-4E03-B037-12EDDD254466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2F124B1-34B3-4E03-B037-12EDDD254466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6A0B06C-D611-49D1-A0B7-9AC9EE33C066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6A0B06C-D611-49D1-A0B7-9AC9EE33C066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6A0B06C-D611-49D1-A0B7-9AC9EE33C066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6A0B06C-D611-49D1-A0B7-9AC9EE33C066}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
