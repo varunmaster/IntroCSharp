@@ -115,6 +115,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "partialClasses", "partialCl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "partialMethods", "partialMethods\partialMethods.csproj", "{04EEDF84-4343-4657-9951-BF4BD3112098}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "indexers", "indexers\indexers.csproj", "{585787F6-962B-4E99-8C1D-2007C09147DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -345,6 +347,10 @@ Global
 		{04EEDF84-4343-4657-9951-BF4BD3112098}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04EEDF84-4343-4657-9951-BF4BD3112098}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04EEDF84-4343-4657-9951-BF4BD3112098}.Release|Any CPU.Build.0 = Release|Any CPU
+		{585787F6-962B-4E99-8C1D-2007C09147DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{585787F6-962B-4E99-8C1D-2007C09147DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{585787F6-962B-4E99-8C1D-2007C09147DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{585787F6-962B-4E99-8C1D-2007C09147DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
