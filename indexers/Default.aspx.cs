@@ -44,6 +44,19 @@ namespace indexers
             Response.Write("</br>");
             Response.Write("Name of emp with ID = 4: " + comp[4]);
             Response.Write("</br>");
+
+            Response.Write("</br>");
+            Response.Write("</br>");
+            Response.Write("</br>");
+            Response.Write("Here begins on overloading of the indexers");
+            Response.Write("Total male employees = " + comp["Male"]);
+            Response.Write("Total female employees = " + comp["Female"]);
+            Response.Write("Now we will change the gender of the employee");
+            Response.Write("</br>");
+            Response.Write("</br>");
+            //change the male employee's gender to female
+            comp["Male"] = "Female";
+            Response.Write("Total female employees = " + comp["Female"]);
         }
     }
 }

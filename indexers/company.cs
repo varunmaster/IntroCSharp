@@ -32,7 +32,7 @@ namespace indexers
         public string this[int employeeID]
         {
             //this get method just retreives the name of the employee that matches the ID that is provided by the user. it just matches based on the user
-            //provided ID and the ID in the database.
+            //provided ID and the ID in the database. This get method will is what it will return to the user. 
             get
             {
                 return listEmployee.FirstOrDefault(emp => emp.empID == employeeID).name;
@@ -41,6 +41,27 @@ namespace indexers
             set
             {
                 listEmployee.FirstOrDefault(emp => emp.empID == employeeID).name = value;
+            }
+        }
+
+        public string this[string Gender]
+        {
+            //in the get accesser here we are returning the count of the employees that match based on the gender that is passed in by the user and then
+            //compares it to the gender that is in the database and returns the countt of that.
+            get
+            {
+                return listEmployee.Count(emp => emp.gender == Gender).ToString();
+            }
+            //this allows us to change the gender of an employee that match the user input and set it to the value that is passed in by the user.
+            set
+            {
+                foreach(Employee empl in listEmployee)
+                {
+                    if(empl.gender == Gender)
+                    {
+                        empl.gender = value;
+                    }
+                }
             }
         }
     }
