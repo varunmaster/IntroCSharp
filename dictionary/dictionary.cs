@@ -30,6 +30,8 @@ namespace dictionary
                 Salary = 9000
             };
 
+            //We first create the instances of the customers and then add them to the dictionary with the Key being their ID. The dictionary uses the ID as the
+            //key and the value we want to return is all the customer properties so we choose 'customer' as the value type.
             Dictionary<int, customer> dictionaryCustomer = new Dictionary<int, customer>();
             dictionaryCustomer.Add(c1.ID, c1);
             dictionaryCustomer.Add(c2.ID, c2);
@@ -43,6 +45,8 @@ namespace dictionary
             customer cust111 = dictionaryCustomer[111];
             //Console.WriteLine("ID = {0}, Name = {1}, Salary = {2}", cust111.ID, cust111.Name, cust111.Salary);
 
+            //We want to iterate through all the combinations of the key/value that are stored in the dictionary called dictionaryCustomer and then we want to 
+            //write the key along with the other info/properties of the customer.
             foreach (KeyValuePair<int, customer> customerKeyValuePair in dictionaryCustomer)
             {
                 Console.WriteLine("ID = {0}", customerKeyValuePair.Key);
