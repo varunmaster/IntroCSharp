@@ -36,7 +36,7 @@ namespace dictionary
             dictionaryCustomer.Add(c1.ID, c1);
             dictionaryCustomer.Add(c2.ID, c2);
             dictionaryCustomer.Add(c3.ID, c3);
-            //This checks if a dictionary already has this ID in there
+            //This checks if a dictionary already has this ID in there. This is prevent adding duplicates or other forms of key's
             if (!dictionaryCustomer.ContainsKey(c1.ID))
             {
                 dictionaryCustomer.Add(c1.ID, c3);
@@ -54,6 +54,35 @@ namespace dictionary
                 Console.WriteLine("ID = {0}, Name = {1}, Salary = {2}", cust.ID, cust.Name, cust.Salary);
                 Console.WriteLine("-------------------------------------------------------------------------------------");
             }
+
+            //Lets say if we want to see if an ID exists in the database and we dont want the program to throw an exception, then we can use the TryGetValue
+            //method. This method is of type boolean so we can put it in an if statement. The first parameter is what we want to search and the second param
+            //is what we want to output
+            customer cust1;
+            if (dictionaryCustomer.TryGetValue(101, out cust1))
+            {
+                Console.WriteLine("ID = {0}, Name = {1}, Salary = {2}", cust1.ID, cust1.Name, cust1.Salary);
+            }
+            else
+            {
+                Console.WriteLine("Key not found");
+            }
+
+            //here we are converting an array to a dictionary
+            customer[] cust2 = new customer[3];
+            cust2[0] = c1;
+            cust2[1] = c2;
+            cust2[2] = c3;
+
+            Dictionary<int, customer> dict = cust2.ToDictionary(cus => cus.ID, cus => cus);
+            
+            foreach(KeyValuePair<int, customer> kvp in dict)
+            {
+                Console.WriteLine("Key = {0}", kvp.Key);
+                customer cust3 = kvp.Value;
+                Console.WriteLine("ID = {0}, Name = {1}, Salary = {2}", cust3.ID, cust3.Name, cust3.Salary);
+            }
+
         }
 
         public class customer
