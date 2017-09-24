@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.15
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroCSharp", "IntroCSharp\IntroCSharp.csproj", "{61DF39C6-7D1A-4ADE-942D-DAC000C548AF}"
 EndProject
@@ -120,6 +120,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "optionalParameters", "optionalParameters\optionalParameters.csproj", "{7ABAF42A-3EDA-4C50-9929-2C42D7143BC9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dictionary", "dictionary\dictionary.csproj", "{3E2F72BD-06D1-4D6C-A8D9-5A7088998367}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lists", "Lists\Lists.csproj", "{12EF6492-D71F-41B6-A569-2062D313394D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -363,6 +365,10 @@ Global
 		{3E2F72BD-06D1-4D6C-A8D9-5A7088998367}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E2F72BD-06D1-4D6C-A8D9-5A7088998367}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E2F72BD-06D1-4D6C-A8D9-5A7088998367}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12EF6492-D71F-41B6-A569-2062D313394D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12EF6492-D71F-41B6-A569-2062D313394D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12EF6492-D71F-41B6-A569-2062D313394D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12EF6492-D71F-41B6-A569-2062D313394D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
