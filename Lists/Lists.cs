@@ -53,6 +53,15 @@ namespace Lists
             savingsCustomer sc = new savingsCustomer();
 
             custList.Add(sc);
+
+            if (custList.Contains(c3))
+            {
+                Console.WriteLine("Customer 3 exists in the list");
+            }
+            else
+            {
+                Console.WriteLine("Customer 3 does not exist");
+            }
         }
 
         public class customer
