@@ -127,6 +127,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "queue", "queue\queue.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "multithread", "multithread\multithread.csproj", "{2A2BA998-2718-4EF1-A254-CFFA50845553}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "threadStartDelagate", "threadStartDelagate\threadStartDelagate.csproj", "{7DBD4896-C9BD-479E-BA74-930FC0DA5424}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -381,6 +383,10 @@ Global
 		{2A2BA998-2718-4EF1-A254-CFFA50845553}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A2BA998-2718-4EF1-A254-CFFA50845553}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A2BA998-2718-4EF1-A254-CFFA50845553}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DBD4896-C9BD-479E-BA74-930FC0DA5424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DBD4896-C9BD-479E-BA74-930FC0DA5424}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DBD4896-C9BD-479E-BA74-930FC0DA5424}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DBD4896-C9BD-479E-BA74-930FC0DA5424}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
