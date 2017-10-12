@@ -10,6 +10,7 @@ namespace Arrays
     {
         static void Main()
         {
+            //specified dimensions
             int[] evenNumb = new int[3];
 
             evenNumb[0] = 0;
